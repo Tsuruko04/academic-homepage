@@ -3,6 +3,7 @@ title: "Thinking in 360°: Humanoid Visual Search in the Wild"
 # January 1 is used only for year-based sorting; an exact publication date is not asserted.
 date: 2026-01-01
 selected: true
+cover: /assets/images/covers/thinking-in-360.png
 pub: "CVPR"
 pub_date: "2026"
 authors:
