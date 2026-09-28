@@ -3,6 +3,7 @@ title: "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergen
 # January 1 is used only for year-based sorting; an exact publication date is not asserted.
 date: 2024-01-01
 selected: true
+cover: /assets/images/covers/agentverse.png
 pub: "ICLR"
 pub_date: "2024"
 authors:

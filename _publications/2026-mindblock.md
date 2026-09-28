@@ -3,6 +3,7 @@ title: "MindBlock: Probing Spatial Assembly and Structure in Unified Multimodal 
 # January 1 is used only for year-based sorting; an exact publication date is not asserted.
 date: 2026-01-01
 selected: true
+cover: /assets/images/covers/mindblock.png
 pub: "ECCV"
 pub_date: "2026"
 authors:

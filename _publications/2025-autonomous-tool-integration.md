@@ -3,6 +3,7 @@ title: "Enhancing Open-Domain Task-Solving Capability of LLMs via Autonomous Too
 # January 1 is used only for year-based sorting; an exact publication date is not asserted.
 date: 2025-01-01
 selected: true
+cover: /assets/images/covers/openact.png
 pub: "ACL"
 pub_date: "2025"
 authors:

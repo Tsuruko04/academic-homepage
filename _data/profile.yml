@@ -5,7 +5,7 @@ navbar_name: "Heyang Yu"
 positions:
   - name: College of AI
   - name: Tsinghua University
-# email: "your-address@example.com"
+email: "hy-yu22@mails.tsinghua.edu.cn"
 # cv_link: /assets/files/cv.pdf
 # github: your-github-username
 gscholar: GVI6jVsAAAAJ
@@ -21,7 +21,14 @@ portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: Heyang Yu
 
 # Replace [] with entries using the examples below.
-research_interests: []
+research_interests: 
+  - name: "Embodied AI"
+    description: "Studying the integration of perception, action, and cognition in intelligent agents situated in the physical world."
+  - name: "Physical AI Agent"
+    description: "Exploring the development and application of intelligent agents in physical world, especially for robotics."
+  - name: "Reinforcement Learning"
+    description: "Investigating algorithms and techniques for training agents to make sequential decisions in complex environments."
+
 # research_interests:
 #   - name: Your research area
 #     description: The questions and ideas you are exploring.
