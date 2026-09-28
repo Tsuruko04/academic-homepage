@@ -2,7 +2,7 @@
 title: "ProAgent: From Robotic Process Automation to Agentic Process Automation"
 # January 1 is used only for year-based sorting; an exact publication date is not asserted.
 date: 2023-01-01
-selected: true
+selected: false
 pub: "arXiv"
 pub_date: "2023"
 authors:
