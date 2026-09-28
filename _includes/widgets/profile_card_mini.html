@@ -9,13 +9,13 @@
                         <div class="figure d-none d-md-block">
                             <img 
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid" 
+                                class="figure-img img-fluid" alt="{{ site.data.profile.primary_name | escape }}"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}">
                         </div>
                         <div class="mb-3 d-md-none text-center">
-                            <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="max-width: 50%;" alt="Portrait">
+                            <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="width: 128px; height: 128px; object-fit: cover; object-position: center 25%;" alt="{{ site.data.profile.primary_name | escape }}">
                         </div>
                         {% endif %}
                     </div>
@@ -36,9 +36,9 @@
 
                 <div class="row small">
                     <div class="col text-center">
-                        <a class="email-text" href="mailto:{{ site.data.profile.email | encode_email }}">
+                        {% if site.data.profile.email %}<a class="email-text" href="mailto:{{ site.data.profile.email | encode_email }}">
                             {{ site.data.profile.email | replace: "@", "(at)" }}
-                        </a>
+                        </a>{% endif %}
                     </div>
                 </div>
 
@@ -50,7 +50,7 @@
                         {%- else -%}
                         {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar -%}
                         {%- endif -%}
-                        <a class="px-1 no-break" target="_blank" href="{{ gscholar_url }}">
+                        <a class="px-1 no-break" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" href="{{ gscholar_url }}">
                             <i class="fab fa-google-scholar"></i>
                         </a>
                         {% endif %}

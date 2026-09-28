@@ -49,9 +49,9 @@
                 <hr />
                 <div class="row">
                     <div class="col">
-                        <a class="pr-3" href="mailto:{{ site.data.profile.email | encode_email }}">
+                        {% if site.data.profile.email %}<a class="pr-3" href="mailto:{{ site.data.profile.email | encode_email }}">
                             <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
-                        </a>
+                        </a>{% endif %}
 
                         {% if site.data.profile.gscholar %}
                         {%- if site.data.profile.gscholar contains 'scholar.google' -%}
@@ -59,7 +59,7 @@
                         {%- else -%}
                         {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar -%}
                         {%- endif -%}
-                        <a class="pr-3 no-break" target="_blank" href="{{ gscholar_url }}">
+                        <a class="pr-3 no-break" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" href="{{ gscholar_url }}">
                             <i class="fab fa-google-scholar"></i> Google Scholar
                         </a>
                         {% endif %}

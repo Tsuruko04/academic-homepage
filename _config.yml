@@ -39,3 +39,13 @@ collections:
   - news
   - showcase
   - posts
+
+title: Heyang Yu
+description: "Heyang Yu — College of AI, Tsinghua University. Research, publications, and academic background."
+timezone: Asia/Shanghai
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

@@ -150,3 +150,7 @@ div.lazy {
         transition: none;
     }
 }
+
+/* Reserved profile sections, using the template's existing card styling. */
+.profile-placeholder { padding: 1rem; border: 1px dashed #ced4da; border-radius: .5rem; background: #fafbfc; }
+#research-interests, #education { scroll-margin-top: 90px; }

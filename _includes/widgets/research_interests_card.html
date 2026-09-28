@@ -1,0 +1,21 @@
+<section class="card border-0 shadow-sm bg-white mt-3" id="research-interests" aria-labelledby="research-title">
+    <div class="card-body p-4">
+        <div class="mx-2 my-1">
+            <h6 id="research-title">Research Interests</h6>
+            {% assign interest_count = site.data.profile.research_interests | size %}
+            {% if interest_count > 0 %}
+            {% for interest in site.data.profile.research_interests %}
+            <div class="mt-3">
+                <strong>{{ interest.name | escape }}</strong>
+                <p class="small text-muted mb-0">{{ interest.description | escape }}</p>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class="profile-placeholder mt-3">
+                <p class="mb-1">Research interests to be added.</p>
+                <p class="small text-muted mb-0">A space for research directions, open questions, and ideas to explore.</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
