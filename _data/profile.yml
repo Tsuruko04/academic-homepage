@@ -22,7 +22,16 @@ research_interests: []
 #   - name: Your research area
 #     description: The questions and ideas you are exploring.
 
-education: []
+# Keep all degrees under one education key; each dash starts a new degree.
+education:
+  - name: Tsinghua University
+    position: B.E.
+    dept: Department of Computer Science and Technology
+    date: 2022 - 2026
+  - name: Tsinghua University
+    position: Ph.D.
+    dept: College of AI
+    date: 2026 - present
 # education:
 #   - name: University name
 #     position: Degree and field of study
