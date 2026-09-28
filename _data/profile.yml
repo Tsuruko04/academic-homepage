@@ -11,8 +11,11 @@ positions:
 gscholar: GVI6jVsAAAAJ
 short_bio_text_justify: false
 short_bio: >-
-  <p>I’m Heyang Yu, affiliated with the College of AI at Tsinghua University.
-  Welcome to my personal academic homepage, where you can find my research and publications.</p>
+  <p>I’m a Ph.D. student in the College of AI at Tsinghua University, advised by
+  <a href="https://yimingli-page.github.io/" target="_blank" rel="noopener noreferrer">Prof. Yiming Li</a>
+  and <a href="https://yaoyuanthu.github.io/" target="_blank" rel="noopener noreferrer">Prof. Yuan Yao</a>.</p>
+  <p>My research focuses on embodied AI and AI agents, with an emphasis on
+  reinforcement learning–based post-training for robotics.</p>
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: Heyang Yu
 
